@@ -67,10 +67,7 @@ Nazwa bazy i uzytkownika podane są jako przykładowe, mogą być dowolne.
 
 	e) W konfiguracji serwera możesz zmniejszyć ilość procesorów do 1 i przestrzeń do 5GB
 
-
-
-
-
+![azure3](https://user-images.githubusercontent.com/57830635/82755855-b5fc6280-9dd6-11ea-9279-547a410ee03f.png)
 
 
 
@@ -89,8 +86,7 @@ Nazwa bazy i uzytkownika podane są jako przykładowe, mogą być dowolne.
 	nazwa użytkownika: lrozwora@maindatabase
 	hasło: nie jest widoczne, jest to hasło, które wpisałeś przy tworzeniu serwera
 
-
-
+![azure5](https://user-images.githubusercontent.com/57830635/82755859-b8f75300-9dd6-11ea-8d82-308df86dcc2e.png)
 
 
 
