@@ -111,7 +111,7 @@ d) utwórz w bazie dwie tabele (aby nie zmieniać dodatkowych plików php to nie
 	$host = 'joealdatabase.mysql.database.azure.com';<br>
  	$login_bazy_danych = 'joeal@joealdatabase'; <br>
 	$haslo_bazy_danych = '*****';<br>
-	$nazwa_bazy_danych = 'joealdb';<br><br>
+	$nazwa_bazy_danych = 'RSS_DB';<br><br>
 
 	2. send_mail (poniżej dane przykładowe)<br>
 
@@ -122,3 +122,5 @@ d) utwórz w bazie dwie tabele (aby nie zmieniać dodatkowych plików php to nie
 	$mailer->Host = 'poczta.interia.pl';<br>
 	$mailer->Username = 'joeal';<br>
 	$mailer->Password = '****';<br><br>
+
+Plik connection.php jest ustawiony na dostęp do istniejącej bazy.
