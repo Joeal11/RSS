@@ -38,7 +38,7 @@ Nazwa bazy i uzytkownika podane są jako przykładowe, mogą być dowolne.
 
 	b) w pasku wyszukiwania wpisz mysql i wybierz „Serwer usługi Azure Database dla 	MySQL”
 
-
+![Azure1a](https://user-images.githubusercontent.com/57830635/82755657-505ba680-9dd5-11ea-99ed-9ac1cd93fe5a.png)
 
 
 
