@@ -55,12 +55,9 @@ Nazwa bazy i uzytkownika podane są jako przykładowe, mogą być dowolne.
 
 	d) uzupełnij wymagane dane i przejdź do przeglądania i tworzenia
 
+![azure2](https://user-images.githubusercontent.com/57830635/82755815-6027ba80-9dd6-11ea-8b83-db24c0bfa987.png)
 
-
-
-
-
-
+![azure4](https://user-images.githubusercontent.com/57830635/82755817-6322ab00-9dd6-11ea-87d5-155c9617049c.png)
 
 
 
