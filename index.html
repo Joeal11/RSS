@@ -8,22 +8,24 @@
 <body>
 <h1>Aplikacja RSS</h1><br>
 
-        <form method="post" action="/">
 
-            <a href="/dodawanie_mail.html">Dodaj adres mail do bazy</a>
+<button onclick> <a href="/add_mail.html">1. Dodaj adres mail do bazy</a> </button>
+<br>
+<br>
+<button onclick> <a href="/add_url.html">2. Dodaj adres url do bazy</a> </button>
+<br>
+<br>
+<button onclick> <a href="/show_mail.html">3. Pokaż adresy mail z bazy</a> </button>
+<br>
+<br>
+<button onclick> <a href="/show_url.html">4. Pokaż adresy url z bazy</a> </button>
+<br>
+<br>
 
-            <br>
-            <br>
-            <a href="/dodawanie_url.html">Dodaj adres url do bazy</a>
-            <br>
-            <br>
+<form action="send_mail.php" method="get">
+    <input type="submit" value="5. Wyślij RSS testowy"/>
+</form>
 
-<form action="get_mail.php" method="get">
-      
-    <input type="submit" value="Pobierz adresy z bazy"/>
-    </form>
-
-
-        </form>
+</form>
 </body>
 </html>
