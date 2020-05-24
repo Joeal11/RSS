@@ -50,6 +50,7 @@ Nazwa bazy i uzytkownika podane są jako przykładowe, mogą być dowolne.
 
 	c) dodaj nowy serwer
 
+![azure1b](https://user-images.githubusercontent.com/57830635/82755762-0e7f3000-9dd6-11ea-9d73-2c23ba48df9f.png)
 
 
 	d) uzupełnij wymagane dane i przejdź do przeglądania i tworzenia
