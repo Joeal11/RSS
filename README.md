@@ -5,6 +5,7 @@ Instrukcja
 
 Aplikacja ma za zadanie wysyłać wiadomości mail rss do adresatów i z linkami zebranymi w bazie.  Bazę adresatow i linków można uzupełniać z frontu.
 
+![rss front](https://user-images.githubusercontent.com/57830635/82755576-bb58ad80-9dd4-11ea-8f68-39fcb17f9795.png)
 
 
 
