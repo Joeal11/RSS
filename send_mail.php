@@ -1,33 +1,37 @@
 <?php
-
-$adres = "joeal@interia.pl";
-$tytul = "Tytuł wiadomości";
-$wiadomosc = "Treść przykładowej wiadomości wysyłanej bezpośrednio z kodu za pomocą funkcji mail().";
-
-// użycie funkcji mail
-mail($adres, $tytul, $wiadomosc);
-
-?>
-
-<?php
 require_once('phpmailer-5.2.7/PHPMailerAutoload.php');
 $mailer = new PHPMailer(true);
-  
-$mailer->Sender = 'joeal@interia.pl';
-$mailer->SetFrom('bbaggins@example.com', 'Bilbo Baggins');
-$mailer->AddAddress('test@interia.pl');
-$mailer->Subject = 'RSSTest';
-$mailer->MsgHTML('<p>urlrss</p>');
-  
-// konfiguracja połączenia
+
 $mailer->IsSMTP();
 $mailer->SMTPAuth = true;
 $mailer->SMTPSecure = 'ssl';
 $mailer->Port = 465;
 $mailer->Host = 'poczta.interia.pl';
-$mailer->Username = 'joeal@interia.pl';
-$mailer->Password = 'hasło SMTP';
-  
-// zrobione
-$mailer->Send();
+$mailer->Username = 'joeal';
+$mailer->Password = '****';
+
+include 'connection.php';
+
+$basequerymail = "SELECT * FROM AdresyMail";
+$basequeryurl = "SELECT * FROM AdresyUrl";
+
+$wynikmail = mysqli_query($connection, $basequerymail);
+$wynikurl = mysqli_query($connection, $basequeryurl);
+
+while ( $row = mysqli_fetch_array($wynikmail) )
+{ 
+  while ( $row = mysqli_fetch_array($wynikurl) )
+  {
+    $to = "{$row['Adres_mail']}";
+    $subject = "RSS powiadomienie";
+    $message = "{$row['Adres_url']},' '<a href='{$row['Adres_url']}'></a><br><br>";
+    $header = "From: $email \nContent-Type:".
+            ' text/plain;charset="UTF-8"'.
+            "\nContent-Transfer-Encoding: 8bit";
+
+    mail($to, $subject, $message, $header);
+
+  }
+}
+
 ?>
